@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import nextId from "react-id-generator";
-import Container from "./components/Container";
-import ContactForm from "./components/ContactForm";
-import ContactList from "./components/ContactList";
-import Filter from "./components/Filter";
+import Container from "./components/Container/Container";
+import ContactForm from "./components/ContactForm/ContactForm";
+import ContactList from "./components/ContactList/ContactList.jsx";
+import Filter from "./components/Filter/Filter.jsx";
 import initialContacts from "./components/Contacts.json";
 import "./App.css";
 
